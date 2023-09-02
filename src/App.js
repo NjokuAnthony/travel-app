@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import Destinations from './components/Destinations';
 import Search from './components/Search';
 import Choose from './components/Choose';
+import Carousel from './components/Carousel';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Destinations />
       <Search />
       <Choose />
+      <Carousel />
     </div>
   );
 }

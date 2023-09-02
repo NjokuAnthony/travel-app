@@ -10,13 +10,13 @@ import ChooseCard from './ChooseCard';
 
 const Choose = () => {
   return (
-    <div className='max-w-[1240px] mx-auto px-4 py-6 grid sm:grid-cols-2 lg:grid-cols-3 gap-4'>
-        <ChooseCard  img={borabora} text='Borabora' />
-        <ChooseCard  img={borabora2} text='Zanzibar' />
-        <ChooseCard  img={maldives} text='Maldives' />
-        <ChooseCard  img={maldives2} text='Ogbudu Cattle Ranch' />
-        <ChooseCard  img={keywest} text='Barbados' />
-        <ChooseCard  img={maldives3} text='Ibiza' />
+    <div className='max-w-[1240px] mx-auto px-4 py-16 grid sm:grid-cols-2 lg:grid-cols-3 gap-6'>
+        <ChooseCard  picture={borabora} title='Bahamas' />
+        <ChooseCard  picture={borabora2} title='Zanzibar' />
+        <ChooseCard  picture={maldives} title='Maldives' />
+        <ChooseCard  picture={maldives2} title='Ogbudu' />
+        <ChooseCard  picture={keywest} title='Barbados' />
+        <ChooseCard  picture={maldives3} title='Ibiza' />
     </div>
   )
 }

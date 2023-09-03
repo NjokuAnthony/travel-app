@@ -5,6 +5,7 @@ import Destinations from './components/Destinations';
 import Search from './components/Search';
 import Choose from './components/Choose';
 import Carousel from './components/Carousel';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Search />
       <Choose />
       <Carousel />
+      <Footer />
     </div>
   );
 }

@@ -24,7 +24,7 @@ const Navbar = () => {
                 <li>Destination</li>
                 <li>Travel</li>
                 <li>Views</li>
-                <li>Books</li>
+                <li>Book</li>
             </ul>
         </div>
         <div className='hidden md:flex'>
